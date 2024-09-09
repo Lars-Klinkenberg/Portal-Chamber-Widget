@@ -9,6 +9,14 @@ section {
     margin: 0;
 }
 
+@font-face {
+    font-family: 'CustomFont';
+    src: url('/assets/fonts/Univers_LT_49_Light_Ultra_Condensed.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 * {
-    font-family: "Barlow", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
