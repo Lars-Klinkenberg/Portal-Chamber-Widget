@@ -14,20 +14,20 @@
     <hr />
     <div class="icon-container">
       <div class="row">
-        <img src="assets/01.png" alt="" class="icon" />
-        <img src="assets/02.png" alt="" class="icon" />
-        <img src="assets/03.png" alt="" class="icon" />
-        <img src="assets/04.png" alt="" class="icon" />
-        <img src="assets/05.png" alt="" class="icon" />
-        <img src="assets/06.png" alt="" class="icon" />
+        <img src="assets/01.png" alt="" class="icon" [ngClass]="isActiveIcon(1) ? 'active' : ''"/>
+        <img src="assets/02.png" alt="" class="icon" [ngClass]="isActiveIcon(2) ? 'active' : ''"/>
+        <img src="assets/03.png" alt="" class="icon" [ngClass]="isActiveIcon(3) ? 'active' : ''"/>
+        <img src="assets/04.png" alt="" class="icon" [ngClass]="isActiveIcon(4) ? 'active' : ''"/>
+        <img src="assets/05.png" alt="" class="icon" [ngClass]="isActiveIcon(5) ? 'active' : ''"/>
+        <img src="assets/06.png" alt="" class="icon" [ngClass]="isActiveIcon(6) ? 'active' : ''"/>
       </div>
       <div class="row">
-        <img src="assets/07.png" alt="" class="icon" />
-        <img src="assets/08.png" alt="" class="icon" />
-        <img src="assets/09.png" alt="" class="icon" />
-        <img src="assets/10.png" alt="" class="icon" />
-        <img src="assets/11.png" alt="" class="icon" />
-        <img src="assets/12.png" alt="" class="icon" />
+        <img src="assets/07.png" alt="" class="icon" [ngClass]="isActiveIcon(7) ? 'active' : ''"/>
+        <img src="assets/08.png" alt="" class="icon" [ngClass]="isActiveIcon(8) ? 'active' : ''"/>
+        <img src="assets/09.png" alt="" class="icon" [ngClass]="isActiveIcon(9) ? 'active' : ''"/>
+        <img src="assets/10.png" alt="" class="icon" [ngClass]="isActiveIcon(10) ? 'active' : ''"/>
+        <img src="assets/11.png" alt="" class="icon" [ngClass]="isActiveIcon(11) ? 'active' : ''"/>
+        <img src="assets/12.png" alt="" class="icon" [ngClass]="isActiveIcon(12) ? 'active' : ''"/>
       </div>
     </div>
     <div class="logo-container">

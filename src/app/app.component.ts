@@ -14,9 +14,23 @@ export class AppComponent {
   day: Date = new Date();
   progress = 15;
 
+  activeList: boolean[] = [];
+
   constructor() {
     setInterval(() => {
       this.day = new Date();
     }, 100);
+    this.generateActiveList();
+  }
+
+  isActiveIcon(index: number) {
+    return this.activeList[index];
+  }
+
+  generateActiveList() {
+    this.activeList = [];
+    for (let i = 0; i < 15; i++) {
+      this.activeList.push(Math.random() >= 0.5);
+    }
   }
 }
