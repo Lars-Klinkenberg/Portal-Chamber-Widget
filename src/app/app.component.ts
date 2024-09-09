@@ -21,6 +21,8 @@ export class AppComponent {
       this.day = new Date();
     }, 100);
     this.generateActiveList();
+
+    this.progress = Math.floor(Math.random() * 19) + 1;
   }
 
   isActiveIcon(index: number) {
